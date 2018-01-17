@@ -1,6 +1,18 @@
 # Mini-DAW
 Instructions:
 
+
+JUCE must be installed to run this program. It can be downloaded at https://juce.com/get-juce. 
+
+1.Open the “Mini DAW.jucer”
+
+2.On the left hand side click 'Modules' then 'juce_audio_basics' and select 'Use global path for this module'
+
+3.Repeat this process for each module on the left hand side or manually chose the path for the modles as JUCE/modules.
+
+4. Click “save project and open in IDE…” which is on the top right next to a pencil icon.
+
+
 To create a 'region' click in the dark grey space and press 'r' on the keyboard.
 
 This will then create a new region with it's own piano roll. 
