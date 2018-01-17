@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="FMnWwa" name="Mini DAW" displaySplashScreen="1" reportAppUsage="1"
+              splashScreenColour="Dark" projectType="guiapp" version="1.0.0"
+              bundleIdentifier="com.yourcompany.MiniDAW" includeBinaryInAppConfig="1"
+              cppLanguageStandard="11" companyCopyright="" jucerVersion="5.2.0">
+  <MAINGROUP id="Myccez" name="Mini DAW">
+    <GROUP id="{3D5FB029-7215-72AF-4655-0EF1AF6575F7}" name="Source">
+      <FILE id="oxDbyf" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+      <FILE id="hCcdDW" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="UwXK1o" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+    </GROUP>
+    <FILE id="mEylBM" name="ArrangeWindow.cpp" compile="1" resource="0"
+          file="Source/ArrangeWindow.cpp"/>
+    <FILE id="BgBua6" name="ArrangeWindow.h" compile="0" resource="0" file="Source/ArrangeWindow.h"/>
+    <FILE id="OcICe9" name="Audio.cpp" compile="1" resource="0" file="Source/Audio.cpp"/>
+    <FILE id="XOQj1y" name="Audio.h" compile="0" resource="0" file="Source/Audio.h"/>
+    <FILE id="UYqcWF" name="Counter.cpp" compile="1" resource="0" file="Source/Counter.cpp"/>
+    <FILE id="CkK9gS" name="Counter.h" compile="0" resource="0" file="Source/Counter.h"/>
+    <FILE id="DI7lwr" name="NoteRegion.cpp" compile="1" resource="0" file="Source/NoteRegion.cpp"/>
+    <FILE id="CVugSW" name="NoteRegion.h" compile="0" resource="0" file="Source/NoteRegion.h"/>
+    <FILE id="DHwFp2" name="Oscillator.cpp" compile="1" resource="0" file="Source/Oscillator.cpp"/>
+    <FILE id="MbvDyW" name="Oscillator.h" compile="0" resource="0" file="Source/Oscillator.h"/>
+    <FILE id="to7KyJ" name="PianoRoll.cpp" compile="1" resource="0" file="Source/PianoRoll.cpp"/>
+    <FILE id="A7EVaZ" name="PianoRoll.h" compile="0" resource="0" file="Source/PianoRoll.h"/>
+    <FILE id="MtH2X3" name="Region.cpp" compile="1" resource="0" file="Source/Region.cpp"/>
+    <FILE id="crcuRB" name="Region.h" compile="0" resource="0" file="Source/Region.h"/>
+    <FILE id="D1gfUg" name="SawOscillator.cpp" compile="1" resource="0"
+          file="Source/SawOscillator.cpp"/>
+    <FILE id="USWq1z" name="SawOscillator.h" compile="0" resource="0" file="Source/SawOscillator.h"/>
+    <FILE id="gKEeb8" name="SequenceRegion.cpp" compile="1" resource="0"
+          file="Source/SequenceRegion.cpp"/>
+    <FILE id="pLgvc7" name="SequenceRegion.h" compile="0" resource="0"
+          file="Source/SequenceRegion.h"/>
+    <FILE id="oVuO7b" name="SinOscillator.cpp" compile="1" resource="0"
+          file="Source/SinOscillator.cpp"/>
+    <FILE id="NF2qtP" name="SinOscillator.h" compile="0" resource="0" file="Source/SinOscillator.h"/>
+    <FILE id="um8sGO" name="SquareOscillator.cpp" compile="1" resource="0"
+          file="Source/SquareOscillator.cpp"/>
+    <FILE id="GFpn26" name="SquareOscillator.h" compile="0" resource="0"
+          file="Source/SquareOscillator.h"/>
+    <FILE id="y2FKR3" name="TrackLabelGui.cpp" compile="1" resource="0"
+          file="Source/TrackLabelGui.cpp"/>
+    <FILE id="EMCdTO" name="TrackLabelGui.h" compile="0" resource="0" file="Source/TrackLabelGui.h"/>
+    <FILE id="S19ojT" name="Window.cpp" compile="1" resource="0" file="Source/Window.cpp"/>
+    <FILE id="c3KeSF" name="Window.h" compile="0" resource="0" file="Source/Window.h"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" enablePluginBinaryCopyStep="1" isDebug="1" optimisation="1"
+                       linkTimeOptimisation="0" targetName="Mini DAW"/>
+        <CONFIGURATION name="Release" enablePluginBinaryCopyStep="1" isDebug="0" optimisation="3"
+                       linkTimeOptimisation="1" targetName="Mini DAW"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_video" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Downloads/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Downloads/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS/>
+</JUCERPROJECT>
